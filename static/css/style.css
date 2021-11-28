@@ -1067,7 +1067,7 @@ section#home:before {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 .home-banner .particles-box {
   position: absolute;
@@ -1563,6 +1563,20 @@ section#home:before {
 }
 .contact-info .media + .media {
   margin-top: 20px;
+}
+@media (max-width: 991px) {
+    .home-banner {
+        background-position: right;
+    }
+    #resume .col-lg-4.my-3 {
+        height: 100%;
+    }
+    .home-banner .bottom-style svg {
+        color: transparent;
+    }
+    #publications ul {
+        padding-left: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
